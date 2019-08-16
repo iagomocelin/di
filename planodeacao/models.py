@@ -57,3 +57,4 @@ class AquisicoesOrcamentarias(models.Model):
         verbose_name_plural = 'Aquisições Orçamentárias'
     def __str__(self):
         return self.descricaodaaquisicao
+
