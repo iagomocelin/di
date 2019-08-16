@@ -9,7 +9,7 @@ class AdminPerspectiva(admin.ModelAdmin):
 
 class AdminObjetivoEstrategico(admin.ModelAdmin):
     list_display = ( 'descricao' ,)
-    list_filter = ( 'descricao' ,)
+    list_filter = ( 'descricao'  ,)
 
 class AdminAcoesOrcamentarias(admin.ModelAdmin):
     list_display = ( 'descricao' ,)
